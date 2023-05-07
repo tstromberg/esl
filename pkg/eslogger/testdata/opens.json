@@ -1,0 +1,228 @@
+{
+    "schema_version": 1,
+    "mach_time": 356104294732,
+    "event_type": 10,
+    "thread": {
+        "thread_id": 209124
+    },
+    "version": 6,
+    "seq_num": 261,
+    "event": {
+        "open": {
+            "fflag": 1074790400,
+            "file": {
+                "path": "\/Users\/t\/Library\/Preferences",
+                "stat": {
+                    "st_blocks": 0,
+                    "st_blksize": 4096,
+                    "st_rdev": 0,
+                    "st_dev": 16777233,
+                    "st_uid": 501,
+                    "st_gid": 20,
+                    "st_ino": 33145,
+                    "st_birthtimespec": "2022-03-26T07:21:13.000000000Z",
+                    "st_flags": 0,
+                    "st_nlink": 338,
+                    "st_mtimespec": "2023-05-07T13:10:12.979287012Z",
+                    "st_ctimespec": "2023-05-07T13:10:12.979287012Z",
+                    "st_size": 10816,
+                    "st_gen": 0,
+                    "st_mode": 16832,
+                    "st_atimespec": "2023-05-07T02:09:49.274828487Z"
+                },
+                "path_truncated": false
+            }
+        }
+    },
+    "time": "2023-05-07T13:10:13.705540415Z",
+    "action": {
+        "result": {
+            "result": {
+                "flags": 4294967295
+            },
+            "result_type": 1
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.cfprefsd",
+        "parent_audit_token": {
+            "asid": 100015,
+            "pidversion": 524,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1
+        },
+        "codesigning_flags": 570522385,
+        "executable": {
+            "path": "\/usr\/sbin\/cfprefsd",
+            "stat": {
+                "st_blocks": 32,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777233,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312428961,
+                "st_birthtimespec": "2022-12-08T05:07:41.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2022-12-08T05:07:41.000000000Z",
+                "st_ctimespec": "2022-12-08T05:07:41.000000000Z",
+                "st_size": 200608,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2022-12-08T05:07:41.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 1,
+        "tty": null,
+        "start_time": "2023-05-05T23:42:12.506042Z",
+        "is_platform_binary": true,
+        "group_id": 547,
+        "audit_token": {
+            "asid": 100028,
+            "pidversion": 1273,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 547
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100028,
+            "pidversion": 1273,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 547
+        },
+        "session_id": 1,
+        "original_ppid": 1,
+        "cdhash": "F2868B54BA036B5D9A5748B1A724CD0013BC7DA4",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 261
+}
+{
+    "schema_version": 1,
+    "mach_time": 356104299827,
+    "event_type": 10,
+    "thread": {
+        "thread_id": 209124
+    },
+    "version": 6,
+    "seq_num": 262,
+    "event": {
+        "open": {
+            "fflag": 1,
+            "file": {
+                "path": "\/Users\/t\/Library\/Preferences\/com.apple.Terminal.plist",
+                "stat": {
+                    "st_blocks": 40,
+                    "st_blksize": 4096,
+                    "st_rdev": 0,
+                    "st_dev": 16777233,
+                    "st_uid": 501,
+                    "st_gid": 20,
+                    "st_ino": 21977087,
+                    "st_birthtimespec": "2023-05-07T13:10:12.977742988Z",
+                    "st_flags": 0,
+                    "st_nlink": 1,
+                    "st_mtimespec": "2023-05-07T13:10:12.978336049Z",
+                    "st_ctimespec": "2023-05-07T13:10:12.979286970Z",
+                    "st_size": 17943,
+                    "st_gen": 0,
+                    "st_mode": 33152,
+                    "st_atimespec": "2023-05-07T13:10:12.977742988Z"
+                },
+                "path_truncated": false
+            }
+        }
+    },
+    "time": "2023-05-07T13:10:13.705753532Z",
+    "action": {
+        "result": {
+            "result": {
+                "flags": 4294967295
+            },
+            "result_type": 1
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.cfprefsd",
+        "parent_audit_token": {
+            "asid": 100015,
+            "pidversion": 524,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1
+        },
+        "codesigning_flags": 570522385,
+        "executable": {
+            "path": "\/usr\/sbin\/cfprefsd",
+            "stat": {
+                "st_blocks": 32,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777233,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312428961,
+                "st_birthtimespec": "2022-12-08T05:07:41.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2022-12-08T05:07:41.000000000Z",
+                "st_ctimespec": "2022-12-08T05:07:41.000000000Z",
+                "st_size": 200608,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2022-12-08T05:07:41.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 1,
+        "tty": null,
+        "start_time": "2023-05-05T23:42:12.506042Z",
+        "is_platform_binary": true,
+        "group_id": 547,
+        "audit_token": {
+            "asid": 100028,
+            "pidversion": 1273,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 547
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100028,
+            "pidversion": 1273,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 547
+        },
+        "session_id": 1,
+        "original_ppid": 1,
+        "cdhash": "F2868B54BA036B5D9A5748B1A724CD0013BC7DA4",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 262
+}

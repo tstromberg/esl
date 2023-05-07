@@ -1,0 +1,114 @@
+{
+    "schema_version": 1,
+    "mach_time": 452519957409,
+    "event_type": 43,
+    "thread": {
+        "thread_id": 266160
+    },
+    "version": 6,
+    "seq_num": 639,
+    "event": {
+        "lookup": {
+            "source_dir": {
+                "path": "\/",
+                "stat": {
+                    "st_blocks": 0,
+                    "st_blksize": 4096,
+                    "st_rdev": 0,
+                    "st_dev": 16777233,
+                    "st_uid": 0,
+                    "st_gid": 0,
+                    "st_ino": 2,
+                    "st_birthtimespec": "2022-12-08T05:07:41.000000000Z",
+                    "st_flags": 1048576,
+                    "st_nlink": 20,
+                    "st_mtimespec": "2022-12-08T05:07:41.000000000Z",
+                    "st_ctimespec": "2022-12-08T05:07:41.000000000Z",
+                    "st_size": 640,
+                    "st_gen": 0,
+                    "st_mode": 16877,
+                    "st_atimespec": "2022-12-08T05:07:41.000000000Z"
+                },
+                "path_truncated": false
+            },
+            "relative_target": "Library\/SystemExtensions\/3E480FC1-57F3-4BDD-B22E-4FF5A4A01D3B\/com.objective-see.lulu.extension.systemextension\/Contents\/MacOS\/com.objective-see.lulu.extension"
+        }
+    },
+    "time": "2023-05-07T14:31:58.253828482Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.distnoted",
+        "parent_audit_token": {
+            "asid": 100015,
+            "pidversion": 524,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1
+        },
+        "codesigning_flags": 570522385,
+        "executable": {
+            "path": "\/usr\/sbin\/distnoted",
+            "stat": {
+                "st_blocks": 160,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777233,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312429009,
+                "st_birthtimespec": "2022-12-08T05:07:41.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2022-12-08T05:07:41.000000000Z",
+                "st_ctimespec": "2022-12-08T05:07:41.000000000Z",
+                "st_size": 357488,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2022-12-08T05:07:41.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 1,
+        "tty": null,
+        "start_time": "2023-05-05T23:42:09.627087Z",
+        "is_platform_binary": true,
+        "group_id": 366,
+        "audit_token": {
+            "asid": 100015,
+            "pidversion": 890,
+            "ruid": 241,
+            "euid": 241,
+            "rgid": 241,
+            "auid": 4294967295,
+            "egid": 241,
+            "pid": 366
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100015,
+            "pidversion": 890,
+            "ruid": 241,
+            "euid": 241,
+            "rgid": 241,
+            "auid": 4294967295,
+            "egid": 241,
+            "pid": 366
+        },
+        "session_id": 366,
+        "original_ppid": 1,
+        "cdhash": "CDEE283B0ED634A5E7443F343CC5B2EFCB3FFA6C",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 639
+}

@@ -1,0 +1,278 @@
+{
+    "schema_version": 1,
+    "mach_time": 443546149643,
+    "event_type": 9,
+    "thread": {
+        "thread_id": 280304
+    },
+    "version": 6,
+    "seq_num": 6,
+    "event": {
+        "exec": {
+            "script": null,
+            "last_fd": 2,
+            "target": {
+                "signing_id": "com.apple.date",
+                "parent_audit_token": {
+                    "asid": 100019,
+                    "pidversion": 42958,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 14518
+                },
+                "codesigning_flags": 570506001,
+                "executable": {
+                    "path": "\/bin\/date",
+                    "stat": {
+                        "st_blocks": 48,
+                        "st_blksize": 4096,
+                        "st_rdev": 0,
+                        "st_dev": 16777233,
+                        "st_uid": 0,
+                        "st_gid": 0,
+                        "st_ino": 1152921500312420530,
+                        "st_birthtimespec": "2022-12-08T05:07:41.000000000Z",
+                        "st_flags": 524320,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2022-12-08T05:07:41.000000000Z",
+                        "st_ctimespec": "2022-12-08T05:07:41.000000000Z",
+                        "st_size": 168032,
+                        "st_gen": 0,
+                        "st_mode": 33261,
+                        "st_atimespec": "2022-12-08T05:07:41.000000000Z"
+                    },
+                    "path_truncated": false
+                },
+                "ppid": 14518,
+                "tty": {
+                    "path": "\/dev\/ttys002",
+                    "stat": {
+                        "st_blocks": 0,
+                        "st_blksize": 65536,
+                        "st_rdev": 268435458,
+                        "st_dev": 1064390898,
+                        "st_uid": 501,
+                        "st_gid": 4,
+                        "st_ino": 987,
+                        "st_birthtimespec": "1970-01-01T00:00:00.000000000Z",
+                        "st_flags": 0,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2023-05-07T14:25:44.355727000Z",
+                        "st_ctimespec": "2023-05-07T14:25:44.355727000Z",
+                        "st_size": 0,
+                        "st_gen": 0,
+                        "st_mode": 8592,
+                        "st_atimespec": "2023-05-07T14:25:44.000000000Z"
+                    },
+                    "path_truncated": false
+                },
+                "start_time": "2023-05-07T14:25:44.366137Z",
+                "is_platform_binary": true,
+                "group_id": 14518,
+                "audit_token": {
+                    "asid": 100019,
+                    "pidversion": 42967,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 14522
+                },
+                "is_es_client": false,
+                "responsible_audit_token": {
+                    "asid": 100019,
+                    "pidversion": 1404,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 591
+                },
+                "session_id": 14517,
+                "original_ppid": 14518,
+                "cdhash": "1FE3C30E51CC466401A770A46A24B79FD12C5B2F",
+                "team_id": null
+            },
+            "image_cpusubtype": -2147483646,
+            "image_cputype": 16777228,
+            "fds": [
+                {
+                    "fd": 0,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 1,
+                    "pipe": {
+                        "pipe_id": 31739
+                    },
+                    "fdtype": 6
+                },
+                {
+                    "fd": 2,
+                    "fdtype": 1
+                }
+            ],
+            "env": [
+                "PWD=\/Users\/t",
+                "USER=t",
+                "LANG=en_US.UTF-8",
+                "XPC_FLAGS=0x0",
+                "LOGNAME=t",
+                "MANPATH=\/opt\/homebrew\/share\/man:",
+                "COSIGN_EXPERIMENTAL=1",
+                "PATH=\/Users\/t\/bin:\/Users\/t\/go\/bin:\/Users\/t\/.local\/bin:\/usr\/local\/go\/bin:\/usr\/pkg\/bin:\/usr\/pkg\/sbin:\/opt\/homebrew\/bin:\/opt\/homebrew\/sbin:\/sbin:\/usr\/local\/bin:\/System\/Cryptexes\/App\/usr\/bin:\/usr\/bin:\/bin:\/usr\/sbin:\/sbin",
+                "OMF_CONFIG=\/Users\/t\/.config\/omf",
+                "TERM_SESSION_ID=A43D4BE2-4824-4F3C-A02E-FF18E327E96B",
+                "SHELL=\/bin\/zsh",
+                "__CFBundleIdentifier=com.apple.Terminal",
+                "LaunchInstanceID=1A22040B-F912-4C5E-815B-62A9782BDE16",
+                "SSH_AUTH_SOCK=\/private\/tmp\/com.apple.launchd.jfpCMWMPuH\/Listeners",
+                "TMPDIR=\/var\/folders\/qh\/cmlpb3kx5qlc9rw9t_wl25zh0000gn\/T\/",
+                "TERM=xterm-256color",
+                "XPC_SERVICE_NAME=0",
+                "KOCACHE=\/Users\/t\/.kocache",
+                "SECURITYSESSIONID=186b3",
+                "SHLVL=1",
+                "INFOPATH=\/opt\/homebrew\/share\/info:",
+                "CLOUDSDK_PYTHON=\/usr\/bin\/python3",
+                "HOME=\/Users\/t",
+                "TERM_PROGRAM_VERSION=447",
+                "TERM_PROGRAM=Apple_Terminal",
+                "HOMEBREW_CELLAR=\/opt\/homebrew\/Cellar",
+                "EDITOR=nvim",
+                "HOMEBREW_PREFIX=\/opt\/homebrew",
+                "OMF_PATH=\/Users\/t\/.local\/share\/omf",
+                "HOMEBREW_REPOSITORY=\/opt\/homebrew"
+            ],
+            "args": [
+                "date",
+                "+%c"
+            ],
+            "cwd": {
+                "path": "\/Users\/t",
+                "stat": {
+                    "st_blocks": 0,
+                    "st_blksize": 4096,
+                    "st_rdev": 0,
+                    "st_dev": 16777233,
+                    "st_uid": 501,
+                    "st_gid": 20,
+                    "st_ino": 33135,
+                    "st_birthtimespec": "2022-05-30T17:30:39.744106937Z",
+                    "st_flags": 0,
+                    "st_nlink": 65,
+                    "st_mtimespec": "2023-05-07T13:44:39.828297547Z",
+                    "st_ctimespec": "2023-05-07T13:44:39.828297547Z",
+                    "st_size": 2080,
+                    "st_gen": 0,
+                    "st_mode": 16872,
+                    "st_atimespec": "2023-05-07T13:44:39.843311255Z"
+                },
+                "path_truncated": false
+            }
+        }
+    },
+    "time": "2023-05-07T14:25:44.366219837Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "fish-555549443dff2b3271d130f18eb9e6a4d7fdf7a2",
+        "parent_audit_token": {
+            "asid": 100019,
+            "pidversion": 42958,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 14518
+        },
+        "codesigning_flags": 570425859,
+        "executable": {
+            "path": "\/opt\/homebrew\/Cellar\/fish\/3.6.0\/bin\/fish",
+            "stat": {
+                "st_blocks": 3912,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777233,
+                "st_uid": 501,
+                "st_gid": 80,
+                "st_ino": 15122289,
+                "st_birthtimespec": "2023-01-12T15:21:20.780244438Z",
+                "st_flags": 0,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-01-12T15:21:20.793092820Z",
+                "st_ctimespec": "2023-01-12T15:21:21.152251961Z",
+                "st_size": 2000048,
+                "st_gen": 0,
+                "st_mode": 33133,
+                "st_atimespec": "2023-05-07T14:25:44.328218518Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 14518,
+        "tty": {
+            "path": "\/dev\/ttys002",
+            "stat": {
+                "st_blocks": 0,
+                "st_blksize": 65536,
+                "st_rdev": 268435458,
+                "st_dev": 1064390898,
+                "st_uid": 501,
+                "st_gid": 4,
+                "st_ino": 987,
+                "st_birthtimespec": "1970-01-01T00:00:00.000000000Z",
+                "st_flags": 0,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-05-07T14:25:44.355727000Z",
+                "st_ctimespec": "2023-05-07T14:25:44.355727000Z",
+                "st_size": 0,
+                "st_gen": 0,
+                "st_mode": 8592,
+                "st_atimespec": "2023-05-07T14:25:44.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "start_time": "2023-05-07T14:25:44.366137Z",
+        "is_platform_binary": false,
+        "group_id": 14518,
+        "audit_token": {
+            "asid": 100019,
+            "pidversion": 42966,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 14522
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100019,
+            "pidversion": 1404,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 591
+        },
+        "session_id": 14517,
+        "original_ppid": 14518,
+        "cdhash": "98C4FF44079AA2402973634BE3356FB3032594C1",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 6
+}
