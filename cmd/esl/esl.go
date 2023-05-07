@@ -10,17 +10,21 @@ import (
 )
 
 func main() {
-
 	o := eslogger.Options{
 		Kind: os.Args[1],
 	}
 
+	fmt.Printf("listening for %s events ...\n", o.Kind)
+
 	handler := func(r *eslogger.Row) bool {
-		if o.Kind == "open" {
+		switch o.Kind {
+		case "open":
 			fmt.Printf("%s [%d] opened %s\n", r.Process.Executable.Path, r.Process.ParentAuditToken.Pid, r.Event.Open.File.Path)
-			return true
+		case "exec":
+			fmt.Printf("%s [%d] launched %s\n", r.Process.Executable.Path, r.Process.ParentAuditToken.Pid, r.Event.Exec.Target.Executable.Path)
+		default:
+			fmt.Printf("%s: %+v", o.Kind, r)
 		}
-		fmt.Printf("%s: %+v", o.Kind, r)
 		return true
 	}
 
